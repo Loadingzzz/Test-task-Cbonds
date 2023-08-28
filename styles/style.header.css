@@ -29,15 +29,14 @@
   margin-top: 46px;
 }
 .filters__list {
+  box-sizing: border-box;
   margin-bottom: 82px;
-
-  width: 1256px;
-
+  width: 1240px;
   gap: 20px 14px;
+  padding-right: 20px;
 }
 
 .filters__item {
-  border: 1px solid #e8e8e8;
   padding: 8px 12px;
   border-radius: 27px;
   box-sizing: border-box;
@@ -45,12 +44,17 @@
   align-items: center;
   justify-content: center;
   gap: 8px;
+  height: 38px;
 
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  cursor: pointer;
+  user-select: none;
+
+  border: 1px solid #e8e8e8;
 }
 
 .filters__item img {
@@ -60,7 +64,7 @@
 
 .filters__item-acitve {
   color: #fff;
-  font-size: 16px;
+  /* font-size: 16px; */
   font-style: normal;
   font-weight: 700;
   line-height: 16px;
