@@ -1,0 +1,65 @@
+.oilgas {
+  padding-top: 68px;
+  padding-bottom: 134px;
+  background-color: #323232;
+}
+
+.oilgas__title {
+  color: #fff;
+}
+
+.oilgas-interest__list {
+  padding-top: 72px;
+  padding-bottom: 64px;
+  justify-content: center;
+  gap: 90px;
+}
+.oilgas-interest__item {
+  display: flex;
+  width: 400px;
+  padding: 28px 36px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: var(--base-01, #ee5f2f);
+  box-sizing: border-box;
+}
+.oilgas-interest__item h2 {
+  display: block;
+  color: #fff;
+  font-family: "Montserrat";
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 266px;
+}
+
+.oilgas-interest__item p {
+  display: block;
+  max-width: 266px;
+  color: #fff;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
+}
+
+.oilgas__graph {
+  padding: 29px 20px 52px 20px;
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.oilgas-interest__list-dark {
+  padding-top: 118px;
+}
+
+.oilgas-interest__list-dark li {
+  background-color: #101010;
+  color: #fff;
+}
